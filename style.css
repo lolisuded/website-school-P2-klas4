@@ -1,0 +1,147 @@
+body {
+    background-color: #161A1D;
+}
+
+p {
+  color: #e5383b;
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.homeText {
+  margin: 0 auto;
+  width: 50rem;
+  margin-top: 12rem;
+}
+
+.homeTitletext {
+    color: #a4161a;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 6rem;
+    
+}
+
+.rrButton {
+  width: 120px;
+  height: 50px;
+  background-color: #0b090a;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.rrButtontext {
+  color: #e5383b;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.dartmonkeyContainer {
+    margin-top: 600px;
+    background-color: #b1a7a6;
+}
+
+#dartmonkeyslideshowDisplay {
+  display: flex;
+}
+
+.dartmonkeytitletext {
+    color: #660708;
+    float: left;
+    margin-left: 3rem;
+    font-family: 'Outfit', sans-serif;
+    font-size: 3rem;
+}
+
+.dartmonkeytitle {
+    width: 100%;
+    height: 6rem;
+}
+
+.dartmonkeyimg {
+    width: 530px;
+    height: 580px;
+    background: transparent;
+    margin: 0 auto;
+}
+
+.dartmonkeyslideshow {
+    display: none;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    background-color: #660708;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .dartmonkeyslideshowContainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .numberText {
+    color: #660708;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
