@@ -1,5 +1,6 @@
 body {
     background-color: #161A1D;
+    margin: 0;
 }
 
 p {
@@ -122,12 +123,39 @@ p {
     height: 80px;
     width: 100%;
     background-color: #0b090a;
-    
   }
 
   .navbarLogoimg {
     height: 70px;
     width: 70px;
+    margin-left: 0.2%;
+    margin-top: 0.25%;
+    float: left;
+  }
+
+  .navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .navbarItems {
+    float: left;
+    height: 80px;
+  }
+
+  .navbarLinks {
+    display: block;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px 50px;
+  }
+
+  .navbarLinks:hover {
+    background-color: #8e94f2;
   }
 
   .next {
@@ -140,10 +168,10 @@ p {
   }
 
   .rrButton:hover {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.5);
     background-color: #b1a7a6;
     animation-name: fade;
-    animation-duration: 2.5s;
+    animation-duration: 2s;
   }
 
   a {
@@ -158,8 +186,6 @@ p {
     top: 0;
     font-family: 'Outfit', sans-serif;
   }
-
-
 
   .fade {
     -webkit-animation-name: fade;
