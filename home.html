@@ -14,65 +14,68 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbarContainer">
+    <nav id="sticky" class="navbarContainer">
         <div class="navbarLogo">
             <img class="navbarLogoimg" src="media/Cia.png" alt="L">
         </div>
         <ul class="navbarList">
             <li class="navbarItems">
-                <a class="navbarLinks" href="">Home</a>
+                <a class="navbarLinks" id="active" href="">Home</a>
             </li>
             <li class="navbarItems">
                 <a class="navbarLinks" href="">About Us</a>
             </li>
-            <li class="navbarItems">
+            <li class="navbarItems" id="dropdown">
                 <a class="navbarLinks" href="">The List</a>
+                <div class="dropdown_content">
+                    <a href="">Dart Monkey</a>
+                    <a href="">Herobrine</a>
+                    <a href="">Imposter</a>
+                    <a href="">Purple Guy</a>
+                    <a href="">Guide</a>
+                </div>
             </li>
             <li class="navbarItems">
                 <a class="navbarLinks" href="">Contact</a>
             </li>
         </ul>
     </nav>
-
     <div data-aos="fade-down" data-aos-duration="3000" class="homeTitle">
-        <h1 class="homeTitletext">Top 5 wanted in the world</h1>
+        <h1 class="homeTitletext">Central Intelligence Agency</h1>
     </div>
-
-    <div data-aos="fade-right" data-aos-duration="3000" class="homeText">
-        <p>These are very dangerous people if u ever meet these people in real life avoid them and call the local authorities in your area. You can contact us via this link</p>
-    </div>
-
-   <a class="rrlink" target="_blank" href="https://www.instagram.com/p/CWyXQCQsUnL/">
-    <div data-aos="fade-up" data-aos-duration="3000" class="rrButton">
-        <p class="rrButtontext">CONTACT</p>
-    </div>
-   </a>
-
-    <div class="dartmonkeyContainer">
-        <div data-aos="fade-right" data-aos-duration="3000" class="dartmonkeytitle">
-            <h1 class="dartmonkeytitletext">#1 Dart Monkey</h1>
+    <div class="intro_container">
+        <div data-aos="fade-right" data-aos-duration="3000" class="homeText">
+            <p>We are the Nation's first line of defense. We accomplish what others cannot accomplish and go where others cannot go.</p>
         </div>
-        <div data-aos="zoom-in-left" data-aos-duration="3000" class="dartmonkeyslideshowContainer">
-            <div id="dartmonkeyslideshowDisplay" class="dartmonkeyslideshow fade">
-                <div class="numberText">1/2</div>
-                <img class="dartmonkeyimg" src="media/Dartmonkey1.png" alt="">
-            </div>
+        <img data-aos="fade-up" data-aos-duration="3000" class="intro_img" src="/media/TTSS-Hero-07A.png" alt="">
+        <div data-aos="fade-left" data-aos-duration="3000" class="cia_video_container">
+            <iframe data-aos-duration="3000" class="cia_video" width="100%" src="https://www.youtube.com/embed/KvG8c8aVtl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+        </div>
+    </a>
+    </div>
+   <div class="our_agency_container">
+    <div data-aos="fade-left" data-aos-duration="2000" class="oa_title">
+        <img class="star_img" src="media/Glyphs_Mission_Positive.png" alt="">
+    </div>
+    <div data-aos="fade-right" data-aos-duration="2000" class="oa_textcontainer">
+        <p class="oa_text">Our Agency</p>
 
-            <div class="dartmonkeyslideshow fade">
-                <div class="numberText">2/2</div>
-                <img class="dartmonkeyimg" src="media/Dartmonkey2.png" alt="">
-            </div>
-
-            <div class="slideshowButtons">
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-            </div>
+        <p class="oa_text2">As the world’s premier foreign intelligence agency, the work we do at CIA is vital to U.S. national security. We collect and analyze foreign intelligence and conduct covert action. U.S. policymakers, including the President of the United States, make policy decisions informed by the information we provide.</p>
+    </div>
+    <hr class="mid_line">
+   </div>
+    <div class="our_legacy_container">
+        <div data-aos="fade-left" data-aos-duration="2000" class="oltextcontainer">
+            <p class="oltext">Our Legacy</p>
+            <p class="oltext2">CIA’s legacy is one of brave individuals dedicated to freedom, fulfilling our intelligence mission with ingenuity and grit. Protecting our country is at the heart of our legacy — past, present, and future. From our World War II roots through today, we carry on the traditions of ingenuity, bravery, and quiet sacrifice that have made us one of the world’s premier intelligence agencies.</p> 
+        </div>
+        <hr class="mid_line2">
+        <div data-aos="fade-right" data-aos-duration="2000" class="ol_title">
+            <img class="flag_img" src="/media/ABO-LAN-Feature-1-c@2x (1).jpg" alt="">
         </div>
     </div>
+   </div>
     <script>
         AOS.init();
     </script>
