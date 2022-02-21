@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+    <script src="script.js"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="list_monkey">
+    <nav id="sticky" class="navbarContainer">
+        <div class="navbarLogo">
+            <img class="navbarLogoimg" src="media/Cia.png" alt="cia logo">
+        </div>
+        <ul class="navbarList">
+            <li class="navbarItems">
+                <a class="navbarLinks" href="index.html">Home</a>
+            </li>
+            <li class="navbarItems">
+                <a class="navbarLinks" href="about-us.html">About Us</a>
+            </li>
+            <li class="navbarItems" id="dropdown">
+                <a class="navbarLinks" id="active" href="list.html">The List</a>
+                <div class="dropdown_content">
+                    <a href="list_monkey.html">Dart Monkey</a>
+                    <a href="list_herobrine.html">Herobrine</a>
+                    <a href="list_imposter.html">Imposter</a>
+                    <a href="list_purpleguy.html">Purple Guy</a>
+                    <a href="list_guide.html">Guide</a>
+                </div>
+            </li>
+            <li class="navbarItems">
+                <a class="navbarLinks" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="dartmonkeyContainer">
+        <div class="dartmonkeytitle">
+            <h1 data-aos="fade-down" data-aos-duration="3000" class="dartmonkeytitletext">#3 Imposter</h1>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000" class="dartmonkeyslideshowContainer">
+            <div id="dartmonkeyslideshowDisplay"class="dartmonkeyslideshow fade">
+                <div class="numberText">1/2</div>
+                <div class="dartmonkeyimgcontainer">
+                    <img class="dartmonkeyimg" src="/media/crewmate.png" alt="imposter neutral">
+                </div>
+            </div>
+
+            <div class="dartmonkeyslideshow fade">
+                <div class="numberText">2/2</div>
+                <div class="dartmonkeyimgcontainer">
+                    <img class="dartmonkeyimg" src="/media/imposter.jpg" alt="imposter in action">
+                </div>
+            </div>
+
+            <div class="slideshowButtons">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="listmain_container">
+        <div data-aos="fade-right" data-aos-duration="3000" class="listtext_container">
+            <h2 class="listtitle">Info:</h2>
+            <p class="listtext">This alien is very dangerous because of his ability to pop out of any vent. He can travel thousands of miles in just a second by going out of a vent. This makes him very hard to catch, it also does not help that he's very small. This is probably the most hostile one on the list because it just kills everyone it sees. It mostly travels alone, but it has been spotted with a companion once in 1928. This alien doen have a very loud vent noise, a sample can be heard in the player. If you ever see him run to safety and call local authorities.</p>
+        </div>
+        <audio data-aos="fade-left" data-aos-duration="3000" controls src="media/imposter.mp3" type="audio/mpeg"></audio>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+    <footer>
+        <a class="footer_img1" target="_blank" href="https://www.facebook.com/Central.Intelligence.Agency/"><img class="footer_img1" src="/media/facebook.png" alt="facebook logo"></a>
+        <a class="footer_img2" target="_blank" href="https://www.instagram.com/cia/?hl=en"><img class="footer_img2" src="/media/instagram-logo.png" alt="instagram logo"></a>
+        <a class="footer_img3" target="_blank" href="https://twitter.com/CIA?"><img class="footer_img3" src="/media/twitter.png" alt="twitter logo"></a>
+    </footer>
+</body>
+</html>
